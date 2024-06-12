@@ -65,8 +65,6 @@ button:hover {
   justify-content: center;
   height: 10rem;
   width: 10rem;
-  animation-name: pop;
-  animation-duration: 4s;
   
 }
 
@@ -78,12 +76,5 @@ button:hover {
   border-radius: 10px;
 }
 
-@keyframes pop {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
 
 }
