@@ -14,23 +14,23 @@ video {
   height: 60vh;
   background: #000000;
   border-radius: 10px;
-  margin-right: 2rem;
-  margin-left: 2rem;
+  margin-right: 1.667vw;
+  margin-left: 1.667vw;
 }
 
 .videos {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 2rem;
+  margin: 1.667vw;
 }
 
 button {
   background-size: contain;
   border: none;
   cursor: pointer;
-  width: 5rem;
-  height: 5rem;
+  width: 4.167vw;
+  height: 4.167vw;
   border-radius: 50%;
   margin-top: 5px;
   margin-bottom: 10px;
@@ -40,12 +40,12 @@ button {
   position: absolute;
   bottom: 0px;
   width:100%;
-  margin-top: 1rem;
+  margin-top: 0.833vw;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap :2rem;
+  gap :1.667vw;
   background: rgba(255, 255, 255, 0.51);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -63,8 +63,8 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 10rem;
-  width: 10rem;
+  height: 8.333vw;
+  width: 8.333vw;
   
 }
 
