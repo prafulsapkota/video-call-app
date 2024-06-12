@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+body {
+  font-family: 'Syne Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background:linear-gradient( 90deg, #1e3f66 0%, #99c7ea ),no-repeat;
+  overflow: hidden;
+}
+
+video {
+  width: 45vw;
+  height: 60vh;
+  background: #000000;
+  border-radius: 10px;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.videos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+button {
+  background-size: contain;
+  border: none;
+  cursor: pointer;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#callSettings {
+  position: absolute;
+  bottom: 0px;
+  width:100%;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap :2rem;
+  background: rgba(255, 255, 255, 0.51);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11.4px);
+  -webkit-backdrop-filter: blur(11.4px);
+}
+
+button:hover {
+  scale: 1.2;
+}
+
+.logo {
+  top: 0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+  width: 10rem;
+  animation-name: pop;
+  animation-duration: 4s;
+  
+}
+
+.logocontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+
+}
